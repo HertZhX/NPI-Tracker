@@ -1,0 +1,197 @@
+- generic [ref=e54]:
+  - complementary [ref=e55]:
+    - generic "NPI Tracker" [ref=e57]
+    - navigation "主导航" [ref=e64]:
+      - button [ref=e65] [cursor=pointer]
+      - button [ref=e71] [cursor=pointer]
+    - navigation "系统管理" [ref=e74]:
+      - button [ref=e75] [cursor=pointer]
+    - button "当前登录账号：张敏，打开账号菜单" [ref=e79] [cursor=pointer]:
+      - generic [ref=e80]: 张
+  - generic [ref=e81]:
+    - banner [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e87]: 搜索项目、产品、任务或文档
+        - textbox "搜索项目、产品、任务或文档" [ref=e88]:
+          - /placeholder: 搜索项目、产品、任务或文档…
+      - button "通知" [ref=e89] [cursor=pointer]:
+        - generic [ref=e93]: "3"
+      - button "当前登录账号：张敏，打开账号菜单" [ref=e94] [cursor=pointer]:
+        - generic [ref=e98]: 张
+    - main [ref=e99]:
+      - generic [ref=e100]:
+        - generic [ref=e102]:
+          - heading "工作台" [level=1] [ref=e103]
+          - paragraph [ref=e104]: 先处理最需要关注的事项。
+        - region "我的工作概况" [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - term [ref=e112]: 团队待办
+              - definition [ref=e113]: "181"
+            - generic [ref=e114]:
+              - term [ref=e119]: 逾期
+              - definition [ref=e120]: "154"
+            - generic [ref=e121]:
+              - term [ref=e124]: 阻塞
+              - definition [ref=e125]: "2"
+            - generic [ref=e126]:
+              - term [ref=e130]: 本周到期
+              - definition [ref=e131]: "5"
+          - button "继续处理" [ref=e132] [cursor=pointer]
+        - generic [ref=e135]:
+          - region [ref=e136]:
+            - generic [ref=e137]:
+              - heading "优先处理" [level=2] [ref=e138]
+              - generic [ref=e139]: 181 项
+            - table [ref=e141]:
+              - rowgroup [ref=e142]:
+                - row [ref=e143]:
+                  - columnheader "项目 / 产品" [ref=e144]
+                  - columnheader "任务" [ref=e145]
+                  - columnheader "阶段" [ref=e146]
+                  - columnheader "状态" [ref=e147]
+                  - columnheader "到期日期" [ref=e148]
+                  - columnheader "打开" [ref=e149]
+              - rowgroup [ref=e151]:
+                - row [ref=e152] [cursor=pointer]:
+                  - cell "CL2636 智能终端新品导入 CL2636 · 智能终端" [ref=e153]:
+                    - strong [ref=e154]: CL2636 智能终端新品导入
+                    - generic [ref=e155]: CL2636 · 智能终端
+                  - cell "ICT针床 EB 验证套料" [ref=e156]:
+                    - strong [ref=e157]: ICT针床
+                    - generic [ref=e158]: EB 验证套料
+                  - cell "EB" [ref=e159]
+                  - cell [ref=e160]
+                  - cell "2026-07-02" [ref=e163]
+                  - cell [ref=e164]
+                - row [ref=e167] [cursor=pointer]:
+                  - cell "CL2557 智能控制器新品导入 CL2557 · 智能控制器" [ref=e168]:
+                    - strong [ref=e169]: CL2557 智能控制器新品导入
+                    - generic [ref=e170]: CL2557 · 智能控制器
+                  - cell "SMT程序 底壳组件" [ref=e171]:
+                    - strong [ref=e172]: SMT程序
+                    - generic [ref=e173]: 底壳组件
+                  - cell "MP" [ref=e174]
+                  - cell [ref=e175]
+                  - cell "2026-07-13" [ref=e178]
+                  - cell [ref=e179]
+                - row [ref=e182] [cursor=pointer]:
+                  - cell "CL2557 智能控制器新品导入 CL2557 · 智能控制器" [ref=e183]:
+                    - strong [ref=e184]: CL2557 智能控制器新品导入
+                    - generic [ref=e185]: CL2557 · 智能控制器
+                  - cell "ICT针床 主控 PCBA" [ref=e186]:
+                    - strong [ref=e187]: ICT针床
+                    - generic [ref=e188]: 主控 PCBA
+                  - cell "MP" [ref=e189]
+                  - cell [ref=e190]
+                  - cell "2026-07-20" [ref=e193]
+                  - cell [ref=e194]
+                - row [ref=e197] [cursor=pointer]:
+                  - cell "CL2636 智能终端新品导入 CL2636 · 智能终端" [ref=e198]:
+                    - strong [ref=e199]: CL2636 智能终端新品导入
+                    - generic [ref=e200]: CL2636 · 智能终端
+                  - cell "烧录软件 终端面壳" [ref=e201]:
+                    - strong [ref=e202]: 烧录软件
+                    - generic [ref=e203]: 终端面壳
+                  - cell "MP" [ref=e204]
+                  - cell [ref=e205]
+                  - cell "2026-08-04" [ref=e208]
+                  - cell [ref=e209]
+                - row [ref=e212] [cursor=pointer]:
+                  - cell "CL2636 智能终端新品导入 CL2636 · 智能终端" [ref=e213]:
+                    - strong [ref=e214]: CL2636 智能终端新品导入
+                    - generic [ref=e215]: CL2636 · 智能终端
+                  - cell "烧录软件 核心板 PCBA" [ref=e216]:
+                    - strong [ref=e217]: 烧录软件
+                    - generic [ref=e218]: 核心板 PCBA
+                  - cell "MP" [ref=e219]
+                  - cell [ref=e220]
+                  - cell "2026-08-06" [ref=e223]
+                  - cell [ref=e224]
+                - row [ref=e227] [cursor=pointer]:
+                  - cell "CL2557 智能控制器新品导入 CL2557 · 智能控制器" [ref=e228]:
+                    - strong [ref=e229]: CL2557 智能控制器新品导入
+                    - generic [ref=e230]: CL2557 · 智能控制器
+                  - cell "灌胶治具 EB 验证套料" [ref=e231]:
+                    - strong [ref=e232]: 灌胶治具
+                    - generic [ref=e233]: EB 验证套料
+                  - cell "EB" [ref=e234]
+                  - cell [ref=e235]
+                  - cell "2026-06-15" [ref=e238]
+                  - cell [ref=e239]
+                - row [ref=e242] [cursor=pointer]:
+                  - cell "CL2557 智能控制器新品导入 CL2557 · 智能控制器" [ref=e243]:
+                    - strong [ref=e244]: CL2557 智能控制器新品导入
+                    - generic [ref=e245]: CL2557 · 智能控制器
+                  - cell "材料进度 EB 验证套料" [ref=e246]:
+                    - strong [ref=e247]: 材料进度
+                    - generic [ref=e248]: EB 验证套料
+                  - cell "EB" [ref=e249]
+                  - cell [ref=e250]
+                  - cell "2026-06-18" [ref=e253]
+                  - cell [ref=e254]
+          - region [ref=e257]:
+            - generic [ref=e258]:
+              - heading "项目异常" [level=2] [ref=e259]
+              - generic [ref=e260]: 5 项
+            - generic [ref=e261]:
+              - button "阻塞 · CL2557 智能控制器新品导入 CL2557 · 智能控制器 · SMT程序" [ref=e262] [cursor=pointer]:
+                - generic [ref=e265]:
+                  - generic [ref=e266]: 阻塞 · CL2557 智能控制器新品导入
+                  - generic [ref=e267]: CL2557 · 智能控制器 · SMT程序
+              - button "风险 · CL2557 智能控制器新品导入 CL2557 · 智能控制器 · ICT针床" [ref=e270] [cursor=pointer]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]: 风险 · CL2557 智能控制器新品导入
+                  - generic [ref=e275]: CL2557 · 智能控制器 · ICT针床
+              - button "风险 · CL2636 智能终端新品导入 CL2636 · 智能终端 · 烧录软件" [ref=e278] [cursor=pointer]:
+                - generic [ref=e281]:
+                  - generic [ref=e282]: 风险 · CL2636 智能终端新品导入
+                  - generic [ref=e283]: CL2636 · 智能终端 · 烧录软件
+              - button "风险 · CL2636 智能终端新品导入 CL2636 · 智能终端 · 烧录软件" [ref=e286] [cursor=pointer]:
+                - generic [ref=e289]:
+                  - generic [ref=e290]: 风险 · CL2636 智能终端新品导入
+                  - generic [ref=e291]: CL2636 · 智能终端 · 烧录软件
+              - button "阻塞 · CL2636 智能终端新品导入 CL2636 · 智能终端 · ICT针床" [ref=e294] [cursor=pointer]:
+                - generic [ref=e297]:
+                  - generic [ref=e298]: 阻塞 · CL2636 智能终端新品导入
+                  - generic [ref=e299]: CL2636 · 智能终端 · ICT针床
+        - region [ref=e302]:
+          - generic [ref=e303]:
+            - heading "进行中的项目" [level=2] [ref=e304]
+            - button "查看全部项目" [ref=e305] [cursor=pointer]
+          - table [ref=e309]:
+            - rowgroup [ref=e310]:
+              - row [ref=e311]:
+                - columnheader "项目 / 产品" [ref=e312]
+                - columnheader "当前阶段" [ref=e313]
+                - columnheader "阶段就绪度" [ref=e314]
+                - columnheader "下一里程碑" [ref=e315]
+                - columnheader "异常" [ref=e316]
+                - columnheader "打开" [ref=e317]
+            - rowgroup [ref=e319]:
+              - row [ref=e320] [cursor=pointer]:
+                - cell "CL2557 智能控制器新品导入 CL2557 · 智能控制器" [ref=e321]:
+                  - strong [ref=e322]: CL2557 智能控制器新品导入
+                  - generic [ref=e323]: CL2557 · 智能控制器
+                - cell "P · 产品验证" [ref=e324]
+                - cell "0%" [ref=e325]:
+                  - generic [ref=e326]:
+                    - generic [ref=e327]:
+                      - emphasis
+                    - generic [ref=e328]: 0%
+                - cell "2026-05-20" [ref=e329]
+                - cell "0" [ref=e330]
+                - cell [ref=e332]
+              - row [ref=e335] [cursor=pointer]:
+                - cell "CL2636 智能终端新品导入 CL2636 · 智能终端" [ref=e336]:
+                  - strong [ref=e337]: CL2636 智能终端新品导入
+                  - generic [ref=e338]: CL2636 · 智能终端
+                - cell "P · 产品验证" [ref=e339]
+                - cell "0%" [ref=e340]:
+                  - generic [ref=e341]:
+                    - generic [ref=e342]:
+                      - emphasis
+                    - generic [ref=e343]: 0%
+                - cell "2026-06-18" [ref=e344]
+                - cell "0" [ref=e345]
+                - cell [ref=e347]

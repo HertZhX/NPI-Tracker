@@ -1,0 +1,22 @@
+
+[周二 2026/08/04  8:40:48.47] Running startup checks...
+v24.16.0
+NPI Tracker Windows diagnostics
+OS: win32 10.0.26200 x64
+Node.js: v24.16.0 x64
+Package: C:\WORK\华丝美\小工具\NPI Tracker\.codex-tmp\package-fixed-extract\NPI-Tracker-Windows-x64-v0.1.1
+Database: C:\WORK\华丝美\小工具\NPI Tracker\.codex-tmp\cmd-zip-smoke.sqlite
+
+PASS  Node.js version and architecture
+PASS  Application files
+PASS  SQLite runtime
+PASS  Data directory write access
+PASS  Listen address 127.0.0.1:4573
+[周二 2026/08/04  8:40:48.92] Starting NPI Tracker...
+
+首次启动管理员账号（仅显示本次）：
+账号：admin
+初始密码：admin123
+登录后必须立即修改密码。
+
+NPI Tracker 服务已启动：http://127.0.0.1:4573

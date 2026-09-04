@@ -1,0 +1,17 @@
+- main [ref=e3]:
+  - region [ref=e4]:
+    - generic [ref=e5]:
+      - generic "NPI Tracker" [ref=e6]
+      - heading "登录 NPI 协同平台" [level=1] [ref=e17]
+      - paragraph [ref=e18]: 使用管理员分配的账号提交各自负责的任务和材料。
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: 账号
+        - textbox "账号" [active] [ref=e26]
+      - generic [ref=e27]:
+        - generic [ref=e28]: 密码
+        - generic [ref=e29]:
+          - textbox "密码 显示密码" [ref=e34]
+          - button "显示密码" [ref=e35] [cursor=pointer]
+      - button "登录" [disabled] [ref=e39]
+    - generic [ref=e43]: 首次登录请使用管理员提供的初始密码，登录后必须设置新密码。忘记密码请联系管理员重置。

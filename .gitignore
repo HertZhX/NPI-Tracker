@@ -1,0 +1,7 @@
+dist/
+node_modules/
+server-data/
+release/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,173 @@
+- generic [ref=e54]:
+  - complementary [ref=e55]:
+    - generic "NPI Tracker" [ref=e57]
+    - navigation "主导航" [ref=e64]:
+      - button [ref=e65] [cursor=pointer]
+      - button [ref=e71] [cursor=pointer]
+    - navigation "系统管理" [ref=e74]:
+      - button [ref=e75] [cursor=pointer]
+    - button "当前登录账号：张敏，打开账号菜单" [ref=e79] [cursor=pointer]:
+      - generic [ref=e80]: 张
+  - generic [ref=e81]:
+    - banner [ref=e82]:
+      - generic [ref=e83]:
+        - generic [ref=e87]: 搜索项目、产品、任务或文档
+        - textbox "搜索项目、产品、任务或文档" [ref=e88]:
+          - /placeholder: 搜索项目、产品、任务或文档…
+      - button "通知" [ref=e89] [cursor=pointer]:
+        - generic [ref=e93]: "3"
+      - button "当前登录账号：张敏，打开账号菜单" [ref=e94] [cursor=pointer]:
+        - generic [ref=e98]: 张
+      - button "新建项目" [ref=e350] [cursor=pointer]
+    - main [ref=e99]:
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - generic [ref=e354]:
+            - heading "项目总览" [level=1] [ref=e355]
+            - paragraph [ref=e356]: 集中查看全部项目及产品的阶段门、文件和材料整体进度。
+          - generic [ref=e357]: 2 个项目 · 2 个产品
+        - region "全部项目指标" [ref=e358]:
+          - article [ref=e359]:
+            - generic [ref=e362]: 整体就绪度
+            - strong [ref=e363]: 0%
+            - generic [ref=e364]: 0/60 项完成
+          - article [ref=e365]:
+            - generic [ref=e369]: 已完成项目
+            - strong [ref=e370]: "0"
+            - generic [ref=e371]: 共 2 个项目
+          - article [ref=e372]:
+            - generic [ref=e377]: 文件收集进度
+            - strong [ref=e378]: 0%
+            - generic [ref=e379]: 0/28 份完成
+          - article [ref=e380]:
+            - generic [ref=e383]: 异常产品
+            - strong [ref=e384]: "0"
+            - generic [ref=e385]: 含风险、阻塞或缺料
+        - region [ref=e386]:
+          - generic [ref=e387]:
+            - generic [ref=e388]:
+              - heading "进行中项目" [level=2] [ref=e389]
+              - paragraph [ref=e390]: 仍有已配置阶段未完成的项目保留在这里。
+            - generic [ref=e391]: 显示 2 / 2
+          - table [ref=e393]:
+            - rowgroup [ref=e394]:
+              - row [ref=e395]:
+                - columnheader "项目" [ref=e396]
+                - columnheader "产品" [ref=e397]
+                - columnheader "料号" [ref=e398]
+                - columnheader "版本" [ref=e399]
+                - columnheader "负责人" [ref=e400]
+                - columnheader "整体进度" [ref=e401]
+                - columnheader "P 阶段" [ref=e402]
+                - columnheader "EB 阶段" [ref=e403]
+                - columnheader "PP 阶段" [ref=e404]
+                - columnheader "MP 阶段" [ref=e405]
+                - columnheader "文件" [ref=e406]
+                - columnheader "材料" [ref=e407]
+                - columnheader "异常" [ref=e408]
+                - columnheader "操作" [ref=e409]
+            - rowgroup [ref=e411]:
+              - row [ref=e412]:
+                - cell "CL2557 智能控制器新品导入 CL2557 · 1/1" [ref=e413]:
+                  - strong [ref=e414]: CL2557 智能控制器新品导入
+                  - generic [ref=e415]: CL2557 · 1/1
+                - cell [ref=e416]:
+                  - button "智能控制器" [ref=e417] [cursor=pointer]
+                - cell "—" [ref=e418]
+                - cell "未填写" [ref=e419]
+                - cell "张敏" [ref=e420]
+                - cell "0%" [ref=e421]:
+                  - generic [ref=e422]:
+                    - generic [ref=e423]: 0%
+                    - generic [ref=e424]:
+                      - emphasis
+                - cell "0% 未开始" [ref=e425]:
+                  - generic [ref=e426]:
+                    - generic [ref=e427]: 0%
+                    - generic [ref=e428]: 未开始
+                - cell "0% 未开始" [ref=e429]:
+                  - generic [ref=e430]:
+                    - generic [ref=e431]: 0%
+                    - generic [ref=e432]: 未开始
+                - cell "0% 未开始" [ref=e433]:
+                  - generic [ref=e434]:
+                    - generic [ref=e435]: 0%
+                    - generic [ref=e436]: 未开始
+                - cell "0% 未开始" [ref=e437]:
+                  - generic [ref=e438]:
+                    - generic [ref=e439]: 0%
+                    - generic [ref=e440]: 未开始
+                - cell "0% 0/14" [ref=e441]:
+                  - generic [ref=e442]: 0%
+                  - generic [ref=e443]: 0/14
+                - cell "0% 0/0" [ref=e444]:
+                  - generic [ref=e445]: 0%
+                  - generic [ref=e446]: 0/0
+                - cell "0" [ref=e447]
+                - cell [ref=e449]:
+                  - button "打开 CL2557 智能控制器新品导入 智能控制器 新品导入流程" [ref=e450] [cursor=pointer]
+              - row [ref=e453]:
+                - cell "CL2636 智能终端新品导入 CL2636 · 1/1" [ref=e454]:
+                  - strong [ref=e455]: CL2636 智能终端新品导入
+                  - generic [ref=e456]: CL2636 · 1/1
+                - cell [ref=e457]:
+                  - button "智能终端" [ref=e458] [cursor=pointer]
+                - cell "—" [ref=e459]
+                - cell "未填写" [ref=e460]
+                - cell "李晨" [ref=e461]
+                - cell "0%" [ref=e462]:
+                  - generic [ref=e463]:
+                    - generic [ref=e464]: 0%
+                    - generic [ref=e465]:
+                      - emphasis
+                - cell "0% 未开始" [ref=e466]:
+                  - generic [ref=e467]:
+                    - generic [ref=e468]: 0%
+                    - generic [ref=e469]: 未开始
+                - cell "0% 未开始" [ref=e470]:
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: 0%
+                    - generic [ref=e473]: 未开始
+                - cell "0% 未开始" [ref=e474]:
+                  - generic [ref=e475]:
+                    - generic [ref=e476]: 0%
+                    - generic [ref=e477]: 未开始
+                - cell "0% 未开始" [ref=e478]:
+                  - generic [ref=e479]:
+                    - generic [ref=e480]: 0%
+                    - generic [ref=e481]: 未开始
+                - cell "0% 0/14" [ref=e482]:
+                  - generic [ref=e483]: 0%
+                  - generic [ref=e484]: 0/14
+                - cell "0% 0/0" [ref=e485]:
+                  - generic [ref=e486]: 0%
+                  - generic [ref=e487]: 0/0
+                - cell "0" [ref=e488]
+                - cell [ref=e490]:
+                  - button "打开 CL2636 智能终端新品导入 智能终端 新品导入流程" [ref=e491] [cursor=pointer]
+        - region [ref=e494]:
+          - generic [ref=e495]:
+            - generic [ref=e496]:
+              - heading "已完成项目" [level=2] [ref=e497]
+              - paragraph [ref=e498]: 全部适用阶段完成，或由管理员提前完结的项目归入此列表。
+            - generic [ref=e499]: 显示 0 / 0
+          - table [ref=e501]:
+            - rowgroup [ref=e502]:
+              - row [ref=e503]:
+                - columnheader "项目" [ref=e504]
+                - columnheader "产品" [ref=e505]
+                - columnheader "料号" [ref=e506]
+                - columnheader "版本" [ref=e507]
+                - columnheader "负责人" [ref=e508]
+                - columnheader "整体进度" [ref=e509]
+                - columnheader "P 阶段" [ref=e510]
+                - columnheader "EB 阶段" [ref=e511]
+                - columnheader "PP 阶段" [ref=e512]
+                - columnheader "MP 阶段" [ref=e513]
+                - columnheader "文件" [ref=e514]
+                - columnheader "材料" [ref=e515]
+                - columnheader "异常" [ref=e516]
+                - columnheader "操作" [ref=e517]
+            - rowgroup [ref=e519]:
+              - row [ref=e520]:
+                - cell "当前还没有已完成项目" [ref=e521]

@@ -1,0 +1,36 @@
+{
+  "name": "npi-tracker",
+  "private": true,
+  "version": "0.1.9",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "vite",
+    "server": "node server/index.mjs",
+    "start": "node server/index.mjs",
+    "admin:reset": "node scripts/reset-admin-password.mjs",
+    "build": "vite build",
+    "package:windows": "npm run build && node scripts/package-windows.mjs",
+    "lint": "eslint src server scripts",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "lucide-react": "https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.26",
+    "globals": "^16.5.0",
+    "vite": "^6.4.3",
+    "vitest": "^3.2.6"
+  }
+}

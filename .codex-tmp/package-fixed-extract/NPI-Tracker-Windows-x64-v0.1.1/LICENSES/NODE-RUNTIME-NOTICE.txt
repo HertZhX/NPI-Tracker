@@ -1,0 +1,4 @@
+This package bundles Node.js v24.16.0 (x64).
+Node.js is distributed under its own license and third-party notices.
+Official release: https://nodejs.org/download/release/v24.16.0/
+License: https://github.com/nodejs/node/blob/v24.16.0/LICENSE

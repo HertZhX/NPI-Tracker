@@ -1,0 +1,219 @@
+- generic [ref=e54]:
+  - complementary [ref=e55]:
+    - generic "NPI Tracker" [ref=e57]
+    - navigation "主导航" [ref=e64]:
+      - button [ref=e65] [cursor=pointer]
+      - button [ref=e71] [cursor=pointer]
+    - navigation "系统管理" [ref=e74]:
+      - button [ref=e75] [cursor=pointer]
+    - button "当前登录账号：张敏，打开账号菜单" [ref=e79] [cursor=pointer]:
+      - generic [ref=e80]: 张
+  - generic [ref=e81]:
+    - banner [ref=e82]:
+      - generic "当前项目上下文" [ref=e532]:
+        - generic [ref=e533]:
+          - generic [ref=e534]: 选择项目
+          - combobox "选择项目" [ref=e535] [cursor=pointer]:
+            - option "CL2557 智能控制器新品导入" [selected]
+            - option "CL2636 智能终端新品导入"
+        - generic [ref=e536]:
+          - generic [ref=e537]: 选择产品
+          - combobox "选择产品" [ref=e538] [cursor=pointer]:
+            - option "智能控制器" [selected]
+      - tablist "项目阶段" [ref=e539]:
+        - tab "P 产品验证" [selected] [ref=e540] [cursor=pointer]:
+          - generic [ref=e541]: P
+          - generic [ref=e542]: 产品验证
+        - tab "EB 工程验证" [ref=e543] [cursor=pointer]:
+          - generic [ref=e544]: EB
+          - generic [ref=e545]: 工程验证
+        - tab "PP 量产验证" [ref=e546] [cursor=pointer]:
+          - generic [ref=e547]: PP
+          - generic [ref=e548]: 量产验证
+        - tab "MP 量产准入" [ref=e549] [cursor=pointer]:
+          - generic [ref=e550]: MP
+          - generic [ref=e551]: 量产准入
+      - button "当前登录账号：张敏，打开账号菜单" [ref=e94] [cursor=pointer]:
+        - generic [ref=e98]: 张
+      - button "重命名当前项目" [ref=e552] [cursor=pointer]
+      - button "提前完结当前项目" [ref=e556] [cursor=pointer]
+      - button "删除当前项目" [ref=e560] [cursor=pointer]
+    - main [ref=e99]:
+      - generic [ref=e564]:
+        - region "产品工作区" [ref=e565]:
+          - generic [ref=e566]:
+            - generic [ref=e567]:
+              - heading "智能控制器 · P 产品验证" [level=1] [ref=e568]
+              - paragraph [ref=e569]:
+                - generic [ref=e570]:
+                  - text: 项目
+                  - strong [ref=e571]: CL2557 智能控制器新品导入
+                - generic [ref=e572]:
+                  - text: 项目代码
+                  - strong [ref=e573]: CL2557
+                - generic [ref=e574]:
+                  - text: 项目状态
+                  - strong [ref=e575]: 进行中
+                - generic [ref=e576]:
+                  - text: 版本
+                  - strong [ref=e577]: 未填写
+                - generic [ref=e578]:
+                  - text: 料号
+                  - strong [ref=e579]: —
+                - generic [ref=e580]:
+                  - text: 产品负责人
+                  - strong [ref=e581]: 张敏
+                - generic [ref=e582]:
+                  - text: 最终阶段
+                  - strong [ref=e583]: MP · 2026-08-15
+            - group "产品管理" [ref=e584]:
+              - button "新增产品" [ref=e585] [cursor=pointer]
+              - button "配置阶段" [disabled] [ref=e590]
+              - button "删除当前阶段" [disabled] [ref=e593]
+              - button "编辑当前产品信息" [ref=e599] [cursor=pointer]
+              - button "删除当前产品" [disabled] [ref=e604]
+          - navigation "产品工作区页面" [ref=e609]:
+            - button "概览" [ref=e610] [cursor=pointer]
+            - button "任务" [ref=e616] [cursor=pointer]
+            - button "材料" [ref=e620] [cursor=pointer]
+        - generic [ref=e626]:
+          - region "阶段会议" [ref=e627]:
+            - button "阶段前启动会 P 阶段前启动会 待安排 0 份文件" [ref=e628] [cursor=pointer]:
+              - generic [ref=e632]:
+                - strong [ref=e633]: 阶段前启动会
+                - generic [ref=e634]: P 阶段前启动会
+              - generic [ref=e635]:
+                - generic [ref=e636]: 待安排
+                - generic [ref=e637]: 0 份文件
+            - button "阶段后评审会 P 阶段后评审会 待安排 0 份文件" [ref=e643] [cursor=pointer]:
+              - generic [ref=e647]:
+                - strong [ref=e648]: 阶段后评审会
+                - generic [ref=e649]: P 阶段后评审会
+              - generic [ref=e650]:
+                - generic [ref=e651]: 待安排
+                - generic [ref=e652]: 0 份文件
+          - region "当前阶段概况" [ref=e655]:
+            - generic [ref=e656]:
+              - generic [ref=e657]: 0%
+              - generic [ref=e659]:
+                - generic [ref=e660]: 关键任务完成度
+                - strong [ref=e661]: 0%
+                - emphasis [ref=e662]: 0 / 4 项完成
+            - generic [ref=e663]:
+              - generic [ref=e664]:
+                - term [ref=e665]: 阻塞
+                - definition [ref=e666]: "0"
+              - generic [ref=e669]:
+                - term [ref=e670]: 风险
+                - definition [ref=e671]: "0"
+              - generic [ref=e674]:
+                - term [ref=e675]: 关键任务待完成
+                - definition [ref=e676]: "4"
+            - button "查看我的任务" [ref=e681] [cursor=pointer]
+          - generic [ref=e684]:
+            - region [ref=e685]:
+              - generic [ref=e686]:
+                - generic [ref=e687]:
+                  - heading "阶段关键任务" [level=2] [ref=e688]
+                  - paragraph [ref=e689]: 确认产品设计可制造、可测试，并形成首轮试产结论。
+                - generic [ref=e690]:
+                  - generic [ref=e691]:
+                    - generic [ref=e692]: 事项筛选
+                    - combobox "事项筛选" [ref=e693] [cursor=pointer]:
+                      - option "全部任务" [selected]
+                      - option "仅看异常"
+                  - button "重置" [ref=e694] [cursor=pointer]
+                  - button "新增事项" [ref=e698] [cursor=pointer]
+              - table [ref=e701]:
+                - rowgroup [ref=e702]:
+                  - row [ref=e703]:
+                    - columnheader "序号" [ref=e704]
+                    - columnheader "类型" [ref=e705]
+                    - columnheader "阶段事项" [ref=e706]
+                    - columnheader "状态" [ref=e707]
+                    - columnheader "责任人" [ref=e708]
+                    - columnheader "计划日期" [ref=e709]
+                    - columnheader "操作" [ref=e710]
+                - rowgroup [ref=e712]:
+                  - row [ref=e713] [cursor=pointer]:
+                    - cell "1" [ref=e714]
+                    - cell "关键任务" [ref=e715]
+                    - cell "DFM 评审 完成跨部门 DFM 评审并关闭关键问题" [ref=e717]:
+                      - strong [ref=e718]: DFM 评审
+                      - generic [ref=e719]: 完成跨部门 DFM 评审并关闭关键问题
+                    - cell [ref=e720]
+                    - cell "待分配 (PE)" [ref=e724]
+                    - cell [ref=e725]:
+                      - time [ref=e726]: 2026-05-20
+                    - cell [ref=e727]:
+                      - button "停用 DFM 评审" [ref=e728]
+                  - row [ref=e732] [cursor=pointer]:
+                    - cell "2" [ref=e733]
+                    - cell "关键任务" [ref=e734]
+                    - cell "ICT 测试覆盖率评审 ICT 测试覆盖率 > 90%" [ref=e736]:
+                      - strong [ref=e737]: ICT 测试覆盖率评审
+                      - generic [ref=e738]: ICT 测试覆盖率 > 90%
+                    - cell [ref=e739]
+                    - cell "待分配 (TE)" [ref=e743]
+                    - cell [ref=e744]:
+                      - time [ref=e745]: 2026-05-20
+                    - cell [ref=e746]:
+                      - button "停用 ICT 测试覆盖率评审" [ref=e747]
+                  - row [ref=e751] [cursor=pointer]:
+                    - cell "3" [ref=e752]
+                    - cell "关键任务" [ref=e753]
+                    - cell "FCT 测试覆盖率评审 FCT 测试覆盖率达到 100%" [ref=e755]:
+                      - strong [ref=e756]: FCT 测试覆盖率评审
+                      - generic [ref=e757]: FCT 测试覆盖率达到 100%
+                    - cell [ref=e758]
+                    - cell "待分配 (TE)" [ref=e762]
+                    - cell [ref=e763]:
+                      - time [ref=e764]: 2026-05-20
+                    - cell [ref=e765]:
+                      - button "停用 FCT 测试覆盖率评审" [ref=e766]
+                  - row [ref=e770] [cursor=pointer]:
+                    - cell "4" [ref=e771]
+                    - cell "关键任务" [ref=e772]
+                    - cell "试产报告输出 输出试产结论、问题清单与后续行动" [ref=e774]:
+                      - strong [ref=e775]: 试产报告输出
+                      - generic [ref=e776]: 输出试产结论、问题清单与后续行动
+                    - cell [ref=e777]
+                    - cell "待分配 (PE)" [ref=e781]
+                    - cell [ref=e782]:
+                      - time [ref=e783]: 2026-05-20
+                    - cell [ref=e784]:
+                      - button "停用 试产报告输出" [ref=e785]
+              - button "查看材料交付进度" [ref=e790] [cursor=pointer]
+            - region [ref=e793]:
+              - generic [ref=e795]:
+                - heading "阶段门条件" [level=2] [ref=e796]
+                - paragraph [ref=e797]: 前置阶段只检查关键任务
+              - generic [ref=e798]:
+                - generic [ref=e799]:
+                  - generic [ref=e803]:
+                    - strong [ref=e804]: 阶段前启动会
+                    - generic [ref=e805]: 会议状态
+                  - generic [ref=e806]: 未完成
+                - generic [ref=e807]:
+                  - generic [ref=e812]:
+                    - strong [ref=e813]: 关键任务
+                    - generic [ref=e814]: 当前阶段必需关键任务
+                  - generic [ref=e815]: 0 / 4
+                - generic [ref=e816]:
+                  - generic [ref=e820]:
+                    - strong [ref=e821]: 阶段后评审会
+                    - generic [ref=e822]: 完成内容后提交评审结论
+                  - generic [ref=e823]: 未完成
+                - generic [ref=e824]:
+                  - generic [ref=e830]:
+                    - strong [ref=e831]: 材料齐套
+                    - generic [ref=e832]: 当前阶段尚未导入 BOM
+                  - generic [ref=e833]: —
+              - generic [ref=e834]:
+                - button "完成评审并流转至 EB" [disabled] [ref=e835]
+                - generic [ref=e840]: 请先完成阶段前启动会
+          - button "材料齐套 0% 0 项齐套，0 项缺料 查看材料" [ref=e842] [cursor=pointer]:
+            - generic [ref=e848]:
+              - strong [ref=e849]: 材料齐套 0%
+              - generic [ref=e850]: 0 项齐套，0 项缺料
+            - generic [ref=e851]: 查看材料

@@ -1,0 +1,286 @@
+- generic [ref=e44]:
+  - complementary [ref=e45]:
+    - generic "NPI Tracker" [ref=e47]
+    - button "收起侧栏" [expanded] [ref=e433] [cursor=pointer]
+    - navigation "主导航" [ref=e54]:
+      - button "项目总览" [ref=e437] [cursor=pointer]
+      - button "新品导入流程" [ref=e438] [cursor=pointer]
+      - button "材料准备" [ref=e439] [cursor=pointer]
+      - button "文件跟踪" [ref=e440] [cursor=pointer]
+      - button "我的待办" [ref=e441] [cursor=pointer]
+      - button "模板管理" [ref=e442] [cursor=pointer]
+    - button "当前登录账号：张敏，打开账号菜单" [ref=e86] [cursor=pointer]:
+      - generic [ref=e87]: 张
+      - generic [ref=e460]:
+        - generic [ref=e443]: 张敏
+        - generic [ref=e444]: NPI/PM · 管理员
+  - generic [ref=e88]:
+    - banner [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]: 选择项目
+        - combobox "选择项目" [ref=e92] [cursor=pointer]:
+          - option "CL2557" [selected]
+          - option "CL2636"
+      - button "删除当前项目" [ref=e93] [cursor=pointer]
+      - generic [ref=e97]:
+        - generic [ref=e98]: 选择产品
+        - combobox "选择产品" [ref=e99] [cursor=pointer]:
+          - option "智能控制器" [selected]
+      - button "向当前项目新增产品" [ref=e100] [cursor=pointer]
+      - generic [ref=e448]:
+        - generic [ref=e452]: 搜索项目、任务或资料
+        - textbox "搜索项目、任务或资料" [ref=e453]:
+          - /placeholder: 搜索项目、任务、资料…
+      - button "通知" [ref=e105] [cursor=pointer]:
+        - generic [ref=e109]: "3"
+      - button "帮助" [ref=e110] [cursor=pointer]
+      - button "当前登录账号：张敏，打开账号菜单" [ref=e114] [cursor=pointer]:
+        - generic [ref=e118]: 张
+      - button "新建项目" [ref=e119] [cursor=pointer]
+    - main [ref=e121]:
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - heading "CL2557 · 智能控制器" [level=1] [ref=e125]
+            - paragraph [ref=e126]:
+              - generic [ref=e127]:
+                - text: 项目经理：
+                - strong [ref=e128]: 张敏
+              - generic [ref=e129]:
+                - text: 目标 MP 日期：
+                - strong [ref=e132]: 2026-08-15
+              - generic [ref=e133]:
+                - text: 产品：
+                - strong [ref=e134]: 智能控制器
+          - button "新增阶段" [ref=e135] [cursor=pointer]
+        - navigation "新品导入阶段" [ref=e139]:
+          - button "P 产品验证 未开始 2026-05-17 0%" [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: P
+            - generic [ref=e142]:
+              - strong [ref=e143]: P 产品验证
+              - generic [ref=e144]: 未开始
+            - generic [ref=e145]:
+              - time [ref=e146]: 2026-05-17
+              - generic [ref=e147]: 0%
+          - button "EB 工程验证 未开始 2026-06-20 0%" [ref=e149] [cursor=pointer]:
+            - generic [ref=e150]: EB
+            - generic [ref=e151]:
+              - strong [ref=e152]: EB 工程验证
+              - generic [ref=e153]: 未开始
+            - generic [ref=e154]:
+              - time [ref=e155]: 2026-06-20
+              - generic [ref=e156]: 0%
+          - button "PP 量产验证 未开始 2026-07-16 0%" [ref=e158] [cursor=pointer]:
+            - generic [ref=e159]: PP
+            - generic [ref=e160]:
+              - strong [ref=e161]: PP 量产验证
+              - generic [ref=e162]: 未开始
+            - generic [ref=e163]:
+              - time [ref=e164]: 2026-07-16
+              - generic [ref=e165]: 0%
+          - button "MP 量产准入 未开始 2026-08-15 0%" [ref=e167] [cursor=pointer]:
+            - generic [ref=e168]: MP
+            - generic [ref=e169]:
+              - strong [ref=e170]: MP 量产准入
+              - generic [ref=e171]: 未开始
+            - generic [ref=e176]:
+              - time [ref=e177]: 2026-08-15
+              - generic [ref=e178]: 0%
+        - generic [ref=e180]:
+          - region [ref=e181]:
+            - generic [ref=e183]:
+              - heading "MP 量产准入阶段总览" [level=2] [ref=e184]
+              - paragraph [ref=e185]: 完成规格签核、标准输出点检与量产质量控制文件签发。
+            - generic "阶段指标" [ref=e186]:
+              - generic [ref=e187]:
+                - generic [ref=e188]: 阶段就绪度
+                - strong [ref=e189]: 0%
+                - generic [ref=e191]: 0 / 7 项
+              - generic [ref=e192]:
+                - generic [ref=e193]: 阻塞项
+                - strong [ref=e194]: "0"
+                - generic [ref=e197]: 需立即处理
+              - generic [ref=e198]:
+                - generic [ref=e199]: 风险项
+                - strong [ref=e200]: "0"
+                - generic [ref=e203]: 需持续跟进
+              - generic [ref=e204]:
+                - generic [ref=e205]: 正常推进
+                - strong [ref=e206]: "7"
+                - generic [ref=e210]: 按计划推进
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: 事项筛选
+                - combobox "事项筛选" [ref=e214] [cursor=pointer]:
+                  - option "全部状态" [selected]
+                  - option "仅看阻塞与风险"
+              - button "刷新视图" [ref=e215] [cursor=pointer]
+            - table [ref=e220]:
+              - rowgroup [ref=e221]:
+                - row [ref=e222]:
+                  - columnheader "序号" [ref=e223]
+                  - columnheader "关键任务" [ref=e224]
+                  - columnheader "状态" [ref=e225]
+                  - columnheader "责任人" [ref=e226]
+                  - columnheader "计划日期" [ref=e227]
+                  - columnheader "更新" [ref=e228]
+                  - columnheader "操作" [ref=e229]
+              - rowgroup [ref=e231]:
+                - row [ref=e232] [cursor=pointer]:
+                  - cell "1" [ref=e233]
+                  - cell "规格书签字（供方/SQE/RD） 供方、SQE 与 RD 完成受控规格书签核" [ref=e234]:
+                    - strong [ref=e235]: 规格书签字（供方/SQE/RD）
+                    - generic [ref=e236]: 供方、SQE 与 RD 完成受控规格书签核
+                  - cell [ref=e237]
+                  - cell "待分配 (SQE)" [ref=e241]
+                  - cell [ref=e242]:
+                    - time [ref=e243]: 2026-08-15
+                  - cell [ref=e244]:
+                    - time [ref=e245]: 08-04 10:14
+                  - cell [ref=e246]
+                - row [ref=e249] [cursor=pointer]:
+                  - cell "2" [ref=e250]
+                  - cell "标准输出物点检 量产准入标准输出物全部完成点检" [ref=e251]:
+                    - strong [ref=e252]: 标准输出物点检
+                    - generic [ref=e253]: 量产准入标准输出物全部完成点检
+                  - cell [ref=e254]
+                  - cell "待分配 (PE)" [ref=e258]
+                  - cell [ref=e259]:
+                    - time [ref=e260]: 2026-08-15
+                  - cell [ref=e261]:
+                    - time [ref=e262]: 08-04 10:14
+                  - cell [ref=e263]
+                - row [ref=e266] [cursor=pointer]:
+                  - cell "3" [ref=e267]
+                  - cell "QCP + 可靠性测试地图 签字 QCP 与可靠性测试地图完成受控发布" [ref=e268]:
+                    - strong [ref=e269]: QCP + 可靠性测试地图
+                    - generic [ref=e270]: 签字 QCP 与可靠性测试地图完成受控发布
+                  - cell [ref=e271]
+                  - cell "待分配 (QE)" [ref=e275]
+                  - cell [ref=e276]:
+                    - time [ref=e277]: 2026-08-15
+                  - cell [ref=e278]:
+                    - time [ref=e279]: 08-04 10:14
+                  - cell [ref=e280]
+          - region [ref=e283]:
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - heading "阶段交付文件（MP）" [level=2] [ref=e286]
+                - paragraph [ref=e287]: 文件状态与附件证据独立跟踪
+              - generic [ref=e288]: 4 个文件
+            - generic [ref=e289]:
+              - generic [ref=e290]:
+                - generic [ref=e291]: 文件名称
+                - generic [ref=e292]: 完成度
+                - generic [ref=e293]: 责任人
+                - generic [ref=e294]: 附件
+                - generic [ref=e295]: 操作
+              - button "签字规格书 0% 待分配 (SQE) 0 更新事项" [ref=e296] [cursor=pointer]:
+                - strong [ref=e301]: 签字规格书
+                - generic [ref=e302]:
+                  - generic [ref=e303]: 0%
+                  - generic [ref=e304]:
+                    - emphasis
+                - generic [ref=e305]: 待分配 (SQE)
+                - generic [ref=e306]: "0"
+                - generic [ref=e310]: 更新事项
+              - button "量产准入点检表 0% 待分配 (PE) 0 更新事项" [ref=e311] [cursor=pointer]:
+                - strong [ref=e316]: 量产准入点检表
+                - generic [ref=e317]:
+                  - generic [ref=e318]: 0%
+                  - generic [ref=e319]:
+                    - emphasis
+                - generic [ref=e320]: 待分配 (PE)
+                - generic [ref=e321]: "0"
+                - generic [ref=e325]: 更新事项
+              - button "量产承认—问题关闭状况、直通率 0% 待分配 (QE) 0 更新事项" [ref=e326] [cursor=pointer]:
+                - strong [ref=e331]: 量产承认—问题关闭状况、直通率
+                - generic [ref=e332]:
+                  - generic [ref=e333]: 0%
+                  - generic [ref=e334]:
+                    - emphasis
+                - generic [ref=e335]: 待分配 (QE)
+                - generic [ref=e336]: "0"
+                - generic [ref=e340]: 更新事项
+              - button "签字 QCP + 可靠性测试地图 0% 待分配 (QE) 0 更新事项" [ref=e341] [cursor=pointer]:
+                - strong [ref=e346]: 签字 QCP + 可靠性测试地图
+                - generic [ref=e347]:
+                  - generic [ref=e348]: 0%
+                  - generic [ref=e349]:
+                    - emphasis
+                - generic [ref=e350]: 待分配 (QE)
+                - generic [ref=e351]: "0"
+                - generic [ref=e355]: 更新事项
+        - region [ref=e356]:
+          - heading "材料准备（全阶段）" [level=2] [ref=e358]
+          - generic [ref=e359]:
+            - generic [ref=e360]: 材料总体完成度
+            - strong [ref=e361]: 0%
+            - generic [ref=e362]:
+              - emphasis
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - term [ref=e365]: 已齐套
+              - definition [ref=e366]: "0"
+            - generic [ref=e367]:
+              - term [ref=e368]: 部分缺料
+              - definition [ref=e369]: "0"
+            - generic [ref=e370]:
+              - term [ref=e371]: 缺料
+              - definition [ref=e372]: "0"
+            - generic [ref=e373]:
+              - term [ref=e374]: 风险物料
+              - definition [ref=e375]: "0"
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - text: 文件证据
+              - generic [ref=e378]: "26"
+            - generic [ref=e382]:
+              - text: 文档齐全率
+              - generic [ref=e383]: 0%
+          - button "查看材料明细" [ref=e384] [cursor=pointer]
+  - dialog [ref=e388]:
+    - banner [ref=e389]:
+      - generic [ref=e393]:
+        - heading "新建项目" [level=2] [ref=e394]
+        - paragraph [ref=e395]: 项目下可同时建立多个产品
+      - button "关闭新建项目对话框" [ref=e396] [cursor=pointer]
+    - generic [ref=e400]:
+      - generic [ref=e401]:
+        - generic [ref=e402]: 项目代码
+        - textbox "项目代码" [ref=e403]: CL-MULTI-01
+      - generic [ref=e404]:
+        - generic [ref=e405]:
+          - generic [ref=e406]: 项目负责人
+          - combobox "项目负责人" [ref=e407] [cursor=pointer]:
+            - option "请选择成员"
+            - option "刘婷 · QE · 品质部"
+            - option "孙洁 · PUR · 采购部"
+            - option "张伟 · PE · 工程部"
+            - option "张敏 · NPI/PM · 项目部" [selected]
+            - option "李晨 · NPI/PM · 项目部"
+            - option "赵峰 · ME · 工程部"
+        - generic [ref=e408]:
+          - generic [ref=e409]: 项目启动日期
+          - textbox "项目启动日期" [ref=e410]: 2026-08-04
+      - group "产品清单" [ref=e411]:
+        - generic [ref=e413]:
+          - generic [ref=e414]:
+            - strong [ref=e415]: 产品清单
+            - paragraph [ref=e416]: 每个产品分别跟踪 P、EB、PP、MP 阶段
+          - button "添加产品" [active] [ref=e417] [cursor=pointer]
+        - generic [ref=e419]:
+          - generic [ref=e420]:
+            - generic [ref=e421]: "1"
+            - generic [ref=e422]: 产品 1 名称
+            - textbox "产品 1 名称" [ref=e423]: 主机
+            - button "删除产品 1" [ref=e424] [cursor=pointer]
+          - generic [ref=e461]:
+            - generic [ref=e462]: "2"
+            - generic [ref=e463]: 产品 2 名称
+            - textbox "产品 2 名称" [ref=e464]
+            - button "删除产品 2" [ref=e465] [cursor=pointer]
+      - paragraph [ref=e428]: 系统将为每个产品自动生成 P、EB、PP、MP 阶段门及标准任务、输出文件清单。
+      - contentinfo [ref=e429]:
+        - button "取消" [ref=e430] [cursor=pointer]
+        - button "创建项目" [ref=e431] [cursor=pointer]

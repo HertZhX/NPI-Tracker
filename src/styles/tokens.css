@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, "Noto Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --bg-app: #f4f7fa;
+  --bg-subtle: #f8fafc;
+  --surface: #ffffff;
+  --surface-hover: #f7fbfa;
+  --ink-strong: #162033;
+  --ink: #344054;
+  --ink-muted: #667085;
+  --ink-faint: #667085;
+  --border: #dbe3ea;
+  --border-strong: #c8d2dc;
+  --teal: #087f70;
+  --teal-strong: #06695f;
+  --teal-soft: #e8f5f2;
+  --blue: #1877d2;
+  --blue-soft: #eaf3fc;
+  --amber: #a84d08;
+  --amber-soft: #fff4df;
+  --red: #c62828;
+  --red-soft: #fff0f0;
+  --purple: #7a5af8;
+  --purple-soft: #f2efff;
+  --gray-status: #667085;
+  --shadow-drawer: -12px 0 30px rgb(15 23 42 / 0.08);
+  --shadow-modal: 0 24px 64px rgb(15 23 42 / 0.18);
+
+  --sidebar-width: 184px;
+  --topbar-height: 64px;
+  --drawer-width: 368px;
+  --radius-sm: 6px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --ease: 180ms ease;
+}

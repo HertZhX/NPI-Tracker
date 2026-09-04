@@ -1,0 +1,8 @@
+{
+  "name": "NPI Tracker Windows Portable",
+  "appVersion": "0.1.1",
+  "nodeVersion": "v24.16.0",
+  "platform": "win32",
+  "architecture": "x64",
+  "builtAt": "2026-08-04T00:38:53.670Z"
+}
